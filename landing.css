@@ -5,6 +5,7 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 
 }
 #landing{
@@ -19,6 +20,9 @@ html{
 #contact{
     height: 50vh;
     background-color: #D9E4EF;
+}
+section{
+    scroll-snap-align: center;
 }
 footer{
     background-color: #D9E4EF;
