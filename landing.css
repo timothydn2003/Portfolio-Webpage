@@ -66,8 +66,9 @@ li a:hover{
 a{
     color: black;
 }
-b.name{
+span.name{
     color: #0062BF;
+    font-weight: 700;
 }
 
 p{
@@ -81,10 +82,18 @@ a p{
     text-decoration: none;
 
 }
-a p:hover{
-    opacity: 50%;
-    text-decoration: none;
-
+button.resume{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+    font-size: 17px;
+    font-weight: 700;
+}
+button.resume:hover{
+    color: black;
+    background-color: #EAF3FD;
 }
 
 .col-md-7{
@@ -95,6 +104,9 @@ a p:hover{
 }
 .col-md-6{
     margin-top: 7%;
+}
+.col-md-12{
+    margin-top: 12%;
 }
 
 

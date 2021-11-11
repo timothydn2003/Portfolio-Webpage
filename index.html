@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel = "icon" type= "image/png" href = "images/TD2 Logo.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -34,29 +34,23 @@
         </div>
             
             <div class = "container">
-                <div class = "row">
-                    <div class = "col-md-7 col-xs-7">
-                        <h1>I'm <br> <b class = "name">Timothy Doan</b></h1>
-                        <p>Currently a Computer Science student at California State University, Sacramento.</p>
-                        <a href = "file:///Users/timothydoan/Documents/Work%20Documents/Timothy%20Doan%20-%20Resume.pdf" class = "text-decoration-none" target="_blank"><p class = "resume">Resume</p></a><br>
+                <div class = "row ">
+                    <div class = "col-md-12 col-xs-12 text-center">
+                        <h1>Hello, I'm<br> <span class = "name"></span></h1>
+                        <p>Currently a Computer Science student <br>at California State University, Sacramento.</p><br>
+                        <a href = "file:///Users/timothydoan/Documents/Work%20Documents/Timothy%20Doan%20-%20Resume.pdf" class = "text-decoration-none" target="_blank"><button class = "resume">Resume</button></a>
                     </div>
-                    <div class = "col-md-5 col-xs-5">
-                        <img src = "images/grad-homepage.jpg" style="width: 300px; height: auto;margin-left: 33%; border-radius: 5px;">
-
-                    </div>
+                    
                 </div>
             </div>
-
         </header>
-
     </section>
     <section id = "projects">
         <div class = "container">
             <div class = "row">
-                <div class = "col-md-12 ">
+                <div class = "col-sm-12 ">
                     <h2>my projects.</h2>
             </div>
-            
         </div>
     </div>
 
@@ -65,7 +59,7 @@
     <section id = "contact">
         <div class = "container">
             <div class = "row">
-                <div class = "col-md-12">
+                <div class = "col-sm-12">
                     <h2>contact.</h2>
                 </div>
                 <div class = "col-md-6 col-xs-6">
@@ -75,6 +69,7 @@
                     <a href = "mailto:timothy_doan@yahoo.com" target = "_blank"><img src = "images/email.png" style = "width: 10%; height: auto;margin-left: 40%;"></a>
                     <a href = "https://www.linkedin.com/in/timothy-doan-4703b3213/" target = "_blank"><img src = "images/linkedin.png" style = "width: 10%; height: auto; margin-left: 10%;"></a>
                     <a href = "https://github.com/timothydn2003" target = "_blank"><img src = "images/github.png" style="width: 10%; height: auto; margin-left: 10%;"></a>
+
 
                 </div>
 
@@ -86,6 +81,14 @@
         <p class = "bottom">@2021 Timothy Doan ❤️ </p>
     </footer>
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".name",{
+            strings: ["Timothy Doan."],
+            typeSpeed: 100,
+            backSpeed: 80,
+            loop:true,
+        })
+    </script>
 </body>
 </html>
