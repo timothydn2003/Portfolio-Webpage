@@ -72,6 +72,9 @@ p{
     font-size: 25px;
     color: #738490;
 }
+b.email{
+    font-size: 20px;
+}
 
 a p{
     color: black;
@@ -100,9 +103,9 @@ button.resume:hover{
     margin-top: 10%;
 }
 .col-md-6{
-    margin-top: 7%;
+    margin-top: 5%;
 }
-.col-md-12{
+.col-lg-12{
     margin-top: 12%;
 }
 
@@ -119,4 +122,27 @@ h2{
     justify-content: center;
     text-align: center;
     font-size:small;
+}
+.formbox{
+    width: 480px;
+    height:300px;
+    position: relative;
+    margin: 6% auto;
+    background: #EAF3FD;
+    padding: 5px;
+    box-shadow:0 5px 20px#738490;
+    overflow: hidden;
+
+}
+.formbox:hover{
+    background-color:#D9E4EF ;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+}
+.description{
+    color: #738490 ;
+    font-size: 20px;
 }
