@@ -155,6 +155,5 @@ h3{
     margin-left: 3%;
 }
 img:hover{
-    transition: .5s;
     opacity: 70%;
 }
