@@ -64,7 +64,7 @@ a{
     color: black;
 }
 span.name{
-    color: #0062BF;
+    color: #154CA0;
     font-weight: 700;
 }
 
@@ -98,6 +98,7 @@ button.resume:hover{
 
 .col-md-7{
     margin-top: 6%;
+
 }
 .col-md-5{
     margin-top: 6%;
