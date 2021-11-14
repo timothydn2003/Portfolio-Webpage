@@ -154,3 +154,14 @@ h3{
     display: inline-block;
     margin-left: 3%;
 }
+img.demo{
+    width: 93%; 
+    height: auto;
+    margin-top: 6%;
+    margin-left:3%; 
+    box-shadow: 0 5px 20px#738490;
+}
+img.demo:hover{
+    box-shadow:0 5px 20px#507181;
+
+}
