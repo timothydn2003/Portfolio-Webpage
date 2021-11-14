@@ -160,6 +160,7 @@ img.demo{
     margin-top: 6%;
     margin-left:3%; 
     box-shadow: 0 5px 20px#738490;
+    border-radius: 5px;
 }
 img.demo:hover{
     box-shadow:0 5px 20px#507181;
