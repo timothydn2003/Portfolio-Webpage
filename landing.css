@@ -136,7 +136,7 @@ h2{
     
 }
 .formbox:hover{
-    box-shadow:0 5px 20px#507181;
+    box-shadow:0 5px 20px#2C5E76;
     
 }
 
@@ -163,6 +163,6 @@ img.demo{
     border-radius: 5px;
 }
 img.demo:hover{
-    box-shadow:0 5px 20px#507181;
+    box-shadow:0 5px 20px#2C5E76;
 
 }
