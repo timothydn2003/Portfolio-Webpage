@@ -128,7 +128,7 @@ h2{
     font-size:small;
 }
 .formbox{
-    width: 480px;
+    max-width: 480px;
     height:270px;
     position: relative;
     margin: 6% auto;
