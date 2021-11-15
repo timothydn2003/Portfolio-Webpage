@@ -171,12 +171,7 @@ img.demo:hover{
     box-shadow:0 5px 20px#2C5E76;
 
 }
-img.icon{
-    margin-left: 33%;
-}
-img.icon1{
-    margin-left: 41%;
-}
+
 @media only screen and (max-width: 500px){
     h1{
         font-size: 45px;
