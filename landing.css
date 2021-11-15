@@ -160,12 +160,14 @@ h3{
     margin-left: 3%;
 }
 img.demo{
-    width: 93%; 
-    height: auto;
-    margin-top: 6%;
-    margin-left:3%; 
+    max-width: 480px; 
+    min-height:270px;
+    position: relative;
+    margin: 6% auto;
     box-shadow: 0 5px 20px#738490;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 img.demo:hover{
     box-shadow:0 5px 20px#2C5E76;
@@ -181,5 +183,15 @@ img.demo:hover{
     }
     .col-lg-12{
         margin-top: 40%;
+    }
+    img.demo{
+        max-width: 420px; 
+        min-height:270px;
+        position: relative;
+        margin: 6% auto;
+        box-shadow: 0 5px 20px#738490;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
