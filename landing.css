@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    background-color: #DBE2E8;
+}
 #landing{
     height: 100vh;
     background-color: #DBE2E8;
 }
 #projects{
-    height: 150vh;
+    min-height: 110vh;
     background-color: #E8ECF0;
 
 }
 #contact{
-    height: 45vh;
+    min-height: 45vh;
     background-color: #DBE2E8;
 }
 
@@ -133,6 +135,8 @@ h2{
     background: #E8ECF0;
     padding: 5px;
     box-shadow:0 5px 20px#738490;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .formbox:hover{
