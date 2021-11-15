@@ -30,7 +30,7 @@ footer{
     height: 100vh;
 }
 h1{
-    font-size: 70px;
+    font-size: 75px;
 }
 .navbar-style{
     padding-top: 30px;
@@ -147,7 +147,7 @@ h2{
 h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 23px;
-    min-width: 100%;
+    max-width: 100%;
 }
 .description{
     color: #738490 ;
@@ -170,4 +170,12 @@ img.demo{
 img.demo:hover{
     box-shadow:0 5px 20px#2C5E76;
 
+}
+@media only screen and (max-width: 375px){
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
 }
