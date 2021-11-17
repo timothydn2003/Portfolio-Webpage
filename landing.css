@@ -106,6 +106,10 @@ button.resume:hover{
 .col-md-6{
     margin-top: 3%;
 }
+embed{
+    height: 900px;
+    width: 1000px;
+}
 .col-lg-12{
     margin-top: 12%;
 }
@@ -187,7 +191,7 @@ img.icon:hover{
     p{
         font-size: 20px;
     }
-    .col-lg-12{
+    .home.col-lg-12{
         margin-top: 40%;
     }
     img.demo{
@@ -202,5 +206,9 @@ img.icon:hover{
     }
     img.icon{
         margin-top: 5%;
+    }
+    embed{
+        max-width: 350px;
+        height: 700px;
     }
 }
