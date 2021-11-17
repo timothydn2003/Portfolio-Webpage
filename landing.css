@@ -168,9 +168,11 @@ img.demo{
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    transition: .3s;
 }
 img.demo:hover{
     box-shadow:0 5px 20px#2C5E76;
+   transform: scale(.9);
 
 }
 
