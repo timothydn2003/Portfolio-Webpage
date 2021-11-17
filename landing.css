@@ -103,9 +103,6 @@ button.resume:hover{
     margin-top: 6%;
 
 }
-.col-md-5{
-    margin-top: 6%;
-}
 .col-md-6{
     margin-top: 3%;
 }
@@ -175,6 +172,9 @@ img.demo:hover{
     transform: scale(.9);
 
 }
+img.icon{
+    margin-top: 25%;
+}
 img.icon:hover{
     transform: scale(1.05);
     opacity: 80%;
@@ -199,5 +199,8 @@ img.icon:hover{
         border-radius: 5px;
         display: flex;
         flex-wrap: wrap;
+    }
+    img.icon{
+        margin-top: 5%;
     }
 }
