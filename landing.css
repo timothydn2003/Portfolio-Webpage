@@ -180,7 +180,11 @@ img.icon{
     margin-top: 25%;
 }
 
-
+@media only screen and (max-height: 700px){
+    .col-lg-12{
+        margin-top: 9%;
+    }
+}
 @media only screen and (max-width: 500px){
     h1{
         font-size: 45px;
