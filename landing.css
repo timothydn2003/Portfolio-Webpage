@@ -208,6 +208,9 @@ img.icon{
         margin-top: 5%;
         width: 8%; 
     }
+    .col-md-7{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 500px){
     h1{
@@ -272,5 +275,8 @@ img.icon{
     img.icon1{
         margin-top: 5%;
         width: 10%; 
+    }
+    .col-md-7{
+        text-align: center;
     }
 }
