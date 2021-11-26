@@ -100,10 +100,13 @@ button.resume:hover{
 }
 
 .col-md-7{
-    margin-top: 6%;
     justify-content: center;
     text-align: center;
 
+}
+.col-md-5{
+    margin-left: auto;
+    margin-right: auto;
 }
 .col-md-6{
     margin-top: 3%;
