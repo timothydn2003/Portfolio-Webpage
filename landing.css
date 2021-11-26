@@ -101,9 +101,7 @@ button.resume:hover{
 
 .col-md-7{
     margin-top: 5%;
-    justify-content: center;
     text-align: center;
-
 }
 .col-md-5{
     text-align: center;
@@ -126,7 +124,6 @@ b{
 }
 
 h2{
-    margin-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .bottom{
