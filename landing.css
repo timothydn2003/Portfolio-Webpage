@@ -100,13 +100,14 @@ button.resume:hover{
 }
 
 .col-md-7{
+    margin-top: 5%;
     justify-content: center;
     text-align: center;
 
 }
 .col-md-5{
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    justify-content: center;
 }
 .col-md-6{
     margin-top: 3%;
@@ -182,7 +183,7 @@ img.demo:hover{
 
 }
 img.icon{
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 @media only screen and (max-height: 700px){
