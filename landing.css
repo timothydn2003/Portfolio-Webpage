@@ -193,6 +193,10 @@ img.icon{
     margin-bottom: 10px;
 
 }
+a.home:hover{
+    text-decoration: none;
+    color: black;
+}
 
 @media only screen and (max-height: 700px){
     .col-lg-12{
