@@ -15,7 +15,7 @@ html{
 
 }
 #contact{
-    min-height: 45vh;
+    min-height: 95vh;
     background-color: #DBE2E8;
 }
 
@@ -25,6 +25,7 @@ footer{
     display: flex;
     bottom: 0;
     justify-content: center;
+    height: 5vh;
 }
 .header{
     height: 100vh;
@@ -70,7 +71,8 @@ span.name{
     font-weight: 700;
 }
 
-p{
+p.email{
+    margin-top: 5%;
     font-size: 25px;
     color: #738490;
 }
@@ -179,23 +181,77 @@ img.demo:hover{
 
 }
 img.icon1{
-    margin-top: 20%;
-    width: 10%; 
+    margin-top: 5%;
+    width: 3%; 
     height: auto; 
-    margin-left:3%;
+
     margin-bottom: 10px;
 }
 img.icon{
-    margin-top: 20%;
-    width: 10%; 
+    margin-top: 5%;
+    width: 3%; 
     height: auto; 
-    margin-left:8%;
+    margin-left:5%;
     margin-bottom: 10px;
 
+}
+img.icon:hover,img.icon1:hover{
+    opacity: 80%;
 }
 a.home:hover{
     text-decoration: none;
     color: black;
+}
+input.email-name{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 1em;
+}
+textarea{
+    height: 300px;
+    width: 70%;
+    padding: 1em;
+}
+input:focus, textarea:focus{
+    box-shadow:0 3px 20px#2C5E76;
+    outline: none;
+}
+input,textarea{
+    background-color: #E8ECF0;
+    border:none;
+    border-radius: 15px;
+}
+.contact>.col-md-12{
+    margin-top: 30%;
+}
+button.btn{
+    justify-content: right;
+    background-color: #2C5E76;
+    width: 100px;
+    font-size: 17px;
+    font-family:Helvetica;
+    height: 50px;
+    border-radius: 20px;
+    color: white;  
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 0 0 #2C5E76;
+    transition: ease-out .20s;
+    outline: none;
+    margin-top: 10px;
+    font-weight: 700;
+}
+button.btn:hover{
+    color: white;
+    transition: .20s;
+    box-sizing: inset 100px 0 0 0 #E8ECF0 ;
+}
+p.email{
+    font-size: 20px;
+}
+form{
+    margin-top: 3%;
 }
 
 @media only screen and (max-height: 700px){
