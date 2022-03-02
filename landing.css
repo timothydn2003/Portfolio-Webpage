@@ -255,6 +255,9 @@ p.email{
 form{
     margin-top: 3%;
 }
+::placeholder{
+    color: black;
+}
 
 @media only screen and (max-height: 700px){
     .col-lg-12{
