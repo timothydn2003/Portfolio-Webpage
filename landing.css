@@ -71,13 +71,15 @@ span.name{
     font-weight: 700;
 }
 
-p.email{
-    margin-top: 5%;
+p{
     font-size: 25px;
     color: #738490;
 }
-b.email{
-    font-size: 20px;
+
+p.email{
+    font-size: 25px;
+    color: #738490;
+    margin-top: 5%;
 }
 
 a p{
