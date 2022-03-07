@@ -262,38 +262,7 @@ form{
     transform: rotate(180deg);
 }
 
-.tilt svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 300px;
-    transform: rotateY(180deg);
-}
 
-.tilt .shape-fill {
-    fill: #E8ECF0;
-}
-.tilt2 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.til2t svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 338px;
-    transform: rotateY(180deg);
-}
-
-.tilt2 .shape-fill {
-    fill: #DBE2E8;
-}
 @media only screen and (max-height: 808px){
     .col-lg-12{
         margin-top: 9%;
@@ -305,15 +274,6 @@ form{
     }
     .col-md-7{
         text-align: center;
-    }
-}
-@media only screen and (max-width: 667px){
-    .tilt svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 300px;
-        transform: rotateY(180deg);
     }
 }
 @media only screen and (max-width: 500px){
