@@ -294,7 +294,7 @@ form{
 .tilt2 .shape-fill {
     fill: #DBE2E8;
 }
-@media only screen and (max-height: 700px){
+@media only screen and (max-height: 1156px){
     .col-lg-12{
         margin-top: 9%;
     }
