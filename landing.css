@@ -10,7 +10,7 @@ html{
     background-color: #DBE2E8;
 }
 #projects{
-    min-height: 150vh;
+    min-height: 120vh;
     background-color: #E8ECF0;
 
 }
@@ -21,9 +21,11 @@ html{
 #links{
     background-color: #DBE2E8;
     color: black;
-    min-height: 7vh;
+    height: 7vh;
 }
-
+svg{
+    overflow: hidden;
+}
 
 .header{
     height: 100vh;
@@ -250,7 +252,48 @@ form{
 ::placeholder{
     color: black;
 }
+.tilt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.tilt svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 338px;
+    transform: rotateY(180deg);
+}
+
+.tilt .shape-fill {
+    fill: #E8ECF0;
+}
+.tilt2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.til2t svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 338px;
+    transform: rotateY(180deg);
+}
+
+.tilt2 .shape-fill {
+    fill: #DBE2E8;
+}
 @media only screen and (max-height: 700px){
     .col-lg-12{
         margin-top: 9%;
