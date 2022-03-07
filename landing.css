@@ -299,7 +299,7 @@ form{
         margin-top: 9%;
     }
 }
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 660px){
     img.icon{
         width: 8%; 
     }
@@ -307,7 +307,7 @@ form{
         text-align: center;
     }
 }
-@media only screen and (max-width: 808px){
+@media only screen and (max-width: 667px){
     .tilt svg {
         position: relative;
         display: block;
