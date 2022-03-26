@@ -261,7 +261,9 @@ form{
     line-height: 0;
     transform: rotate(180deg);
 }
-
+a.return{
+    color: #1D539A;
+}
 
 @media only screen and (max-height: 808px){
     .col-lg-12{
