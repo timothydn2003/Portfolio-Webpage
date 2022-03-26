@@ -12,6 +12,11 @@ html{
     position: fixed;
     z-index: 100;
 }
+#delay{
+    width: 0vh;
+    height: 0vh;
+    opacity: 0%;
+}
 #landing{
     height: 100vh;
     background-color: #DBE2E8;
