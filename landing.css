@@ -145,19 +145,19 @@ h2{
     font-size:medium;
 }
 .formbox{
-    max-width: 480px;
-    min-height:270px;
+    max-width: 550px;
+    min-height:230px;
     position: relative;
     margin: 6% auto;
     background: #E8ECF0;
     padding: 5px;
-    box-shadow:0 5px 20px#738490;
+    box-shadow:0 5px 20px #738490;
     display: flex;
     flex-wrap: wrap;
     
 }
 .formbox:hover{
-    box-shadow:0 5px 20px#2C5E76;
+    box-shadow:0 5px 20px #2C5E76;
     
 }
 
@@ -181,17 +181,13 @@ img.demo{
     min-height:270px;
     position: relative;
     margin: 6% auto;
-    box-shadow: 0 5px 20px#738490;
+    box-shadow: 0 5px 20px #738490;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     transition: .3s;
 }
-img.demo:hover{
-    box-shadow:0 5px 20px#2C5E76;
-    transform: scale(.9);
 
-}
 img.icon1{
     width: 3%; 
     height: auto; 
@@ -222,7 +218,7 @@ textarea{
     padding: 1em;
 }
 input:focus, textarea:focus{
-    box-shadow:0 3px 20px#2C5E76;
+    box-shadow:0 3px 20px #2C5E76;
     outline: none;
 }
 input,textarea{
@@ -276,7 +272,18 @@ form{
 a.return{
     color: #1D539A;
 }
-
+@media only screen and (max-width:1199){
+    img.demo{
+        max-width: 250px; 
+        min-height:200px;
+        position: relative;
+        margin: 6% auto;
+        box-shadow: 0 5px 20px #738490;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @media only screen and (max-height: 808px){
     .col-lg-12{
         margin-top: 9%;
@@ -289,6 +296,7 @@ a.return{
     .col-md-7{
         text-align: center;
     }
+    
 }
 @media only screen and (max-width: 547px){
     .bottom{
@@ -306,11 +314,11 @@ a.return{
         margin-top: 40%;
     }
     img.demo{
-        max-width: 350px; 
-        min-height:270px;
+        max-width: 300px; 
+        min-height:200px;
         position: relative;
         margin: 6% auto;
-        box-shadow: 0 5px 20px#738490;
+        box-shadow: 0 5px 20px #738490;
         border-radius: 5px;
         display: flex;
         flex-wrap: wrap;
@@ -338,10 +346,10 @@ a.return{
     }
     img.demo{
         max-width: 300px; 
-        min-height:270px;
+        min-height:250;
         position: relative;
         margin: 6% auto;
-        box-shadow: 0 5px 20px#738490;
+        box-shadow: 0 5px 20px #738490;
         border-radius: 5px;
         display: flex;
         flex-wrap: wrap;
