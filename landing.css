@@ -323,7 +323,7 @@ a.return{
         height: 700px;
     }
 }
-@media only screen and (max-width: 325px){
+@media only screen and (max-width: 375px){
     h1{
         font-size: 35px;
     }
@@ -338,7 +338,40 @@ a.return{
     }
     img.demo{
         max-width: 300px; 
-        min-height:270px;
+        min-height:240px;
+        position: relative;
+        margin: 6% auto;
+        box-shadow: 0 5px 20px#738490;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img.icon{
+        width: 10%; 
+    }
+    .col-md-7{
+        text-align: center;
+    }
+    .description{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 360px){
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .col-lg-12{
+        margin-top: 35%;
+    }
+    #projects{
+        min-width: 100%;
+    }
+    img.demo{
+        max-width: 270px; 
+        min-height:240px;
         position: relative;
         margin: 6% auto;
         box-shadow: 0 5px 20px#738490;
