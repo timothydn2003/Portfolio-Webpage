@@ -336,7 +336,7 @@ a.return{
         height: 700px;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 407px){
     h1{
         font-size: 35px;
     }
