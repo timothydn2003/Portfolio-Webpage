@@ -278,10 +278,14 @@ form{
 a.return{
     color: #1D539A;
 }
-
-@media only screen and (max-height: 808px){
+@media only screen and (max-width: 920px){
     .col-lg-12{
-        margin-top: 9%;
+        margin-top: 35%;
+    }
+}
+@media only screen and (max-height: 768px){
+    .col-lg-12{
+        margin-top: 35%;
     }
 }
 @media only screen and (max-width: 660px){
@@ -290,6 +294,11 @@ a.return{
     }
     .col-md-7{
         text-align: center;
+    }
+}
+@media only screen and (max-width: 568px){
+    h1{
+        font-size: 55px;
     }
 }
 @media only screen and (max-width: 547px){
@@ -346,7 +355,7 @@ a.return{
         font-size: 15px;
     }
     .col-lg-12{
-        margin-top: 35%;
+        margin-top: 40%;
     }
     #projects{
         min-width: 100%;
