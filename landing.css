@@ -132,7 +132,9 @@ embed{
 .col-lg-12{
     margin-top: 12%;
 }
-
+.col-lg-6{
+    margin-top: 12%;
+}
 
 b{
     color: black;
