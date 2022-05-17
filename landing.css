@@ -260,9 +260,6 @@ button.btn:hover{
 p.email{
     font-size: 20px;
 }
-form{
-
-}
 ::placeholder{
     color: black;
 }
@@ -278,6 +275,11 @@ form{
 a.return{
     color: #1D539A;
 }
+@media only screen and (max-width: 1024px){
+    .col-lg-12{
+        margin-top: 5%;
+    }
+}
 @media only screen and (max-width: 920px){
     .col-lg-12{
         margin-top: 35%;
@@ -285,7 +287,7 @@ a.return{
 }
 @media only screen and (max-height: 768px){
     .col-lg-12{
-        margin-top: 35%;
+        margin-top: 12%;
     }
 }
 @media only screen and (max-width: 660px){
