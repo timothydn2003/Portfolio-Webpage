@@ -275,11 +275,6 @@ p.email{
 a.return{
     color: #1D539A;
 }
-@media only screen and (max-width: 1024px){
-    .col-lg-12{
-        margin-top: 5%;
-    }
-}
 @media only screen and (max-width: 920px){
     .col-lg-12{
         margin-top: 35%;
